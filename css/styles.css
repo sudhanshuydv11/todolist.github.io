@@ -1,2 +1,46 @@
 body {
-  background-color: red; }
+  background-color: #F3F8F5; }
+
+.centre_div {
+  background: #F3F8F5;
+  position: absolute;
+  top: 20vh;
+  left: 37.5vw;
+  height: auto;
+  width: 25vw;
+  display: grid;
+  max-height: 2000px;
+  transition: max-height 2s;
+  grid-template-columns: auto; }
+
+.headin {
+  color: white;
+  margin: 0px auto auto auto;
+  text-align: center;
+  background-color: #0D99FF;
+  border-radius: 4px;
+  width: 100%; }
+
+.content_sec {
+  width: 100%;
+  height: auto;
+  margin: 0px auto auto auto; }
+
+.add_button {
+  margin: 0px auto auto auto; }
+
+.card_container {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: auto; }
+
+.card {
+  width: 100%;
+  background-color: #E6EDE9;
+  display: grid;
+  grid-template-columns: 13% auto; }
+
+.Add_task {
+  display: flex;
+  flex-direction: row-reverse; }
