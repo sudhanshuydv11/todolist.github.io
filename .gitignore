@@ -1,4 +1,4 @@
 /node_modules
-scss
+**/scss
 package-lock.json
 package.json
