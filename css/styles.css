@@ -47,6 +47,9 @@ body {
   grid-template-columns: 10% auto; }
 
 .Add_task {
+  height: 25px;
+  margin-top: 5%;
+  margin-right: 5%;
   display: flex;
   flex-direction: row-reverse; }
 
@@ -57,3 +60,23 @@ body {
 .common_div {
   margin-top: auto;
   margin-bottom: auto; }
+
+#add_button {
+  border: none;
+  border-radius: 2px;
+  color: white;
+  background-color: #0D99FF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2); }
+
+#add_input {
+  background-color: #F3F8F5;
+  margin-right: 2%;
+  border: none;
+  border-bottom: solid;
+  border-color: grey;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.148); }
+  #add_input:focus {
+    outline: none;
+    border-color: #0D99FF; }
+  #add_input:hover {
+    border-color: #0D99FF; }
