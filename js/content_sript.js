@@ -3,14 +3,15 @@
 
 
 let counter_for_checkbox = 2;
+let x = document.getElementById("card_container");
 
 function Add() {
 
     let y1 = document.getElementById("add_input");
     let y = y1.value;
     if (y === "") return;
-    console.log(y);
-    let x = document.getElementById("card_container");
+
+
 
 
     let main_child = document.createElement('div');
