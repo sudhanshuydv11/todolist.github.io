@@ -1,5 +1,6 @@
 body {
-  background-color: #F3F8F5; }
+  background-color: #F3F8F5;
+  font-family: "Poppins"; }
 
 .centre_div {
   background: #F3F8F5;
@@ -12,6 +13,7 @@ body {
   grid-template-columns: auto; }
 
 .headin {
+  font-size: 25px;
   color: white;
   margin: 0px auto 3px auto;
   text-align: center;
@@ -33,6 +35,8 @@ body {
   grid-template-columns: auto; }
 
 .card {
+  font-family: "Murecho";
+  font-size: 15px;
   width: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -62,6 +66,7 @@ body {
   margin-bottom: auto; }
 
 #add_button {
+  font-family: "Poppins";
   border: none;
   border-radius: 2px;
   color: white;
@@ -69,6 +74,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2); }
 
 #add_input {
+  font-family: "Murecho";
   background-color: #F3F8F5;
   margin-right: 2%;
   border: none;
