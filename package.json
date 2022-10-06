@@ -1,0 +1,32 @@
+{
+  "name": "to_do_list",
+  "version": "1.0.0",
+  "description": "to_do_list",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -o dist/css scss/styles.scss -w",
+    "build": "webpack",
+    "pretty": "prettier --write src/"
+  },
+  "author": "sudhanshu_yadav",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "firebase": "^9.10.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.0.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
