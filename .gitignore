@@ -2,3 +2,5 @@ scss
 package-lock.json
 package.json
 /node_modules
+src
+webpack.config.js
